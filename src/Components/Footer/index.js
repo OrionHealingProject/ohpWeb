@@ -7,7 +7,7 @@ import './style.css'
 function Footer() {
     return (
         <div className="footer" fixed="bottom">
-            <hr className="separator"></hr>
+            {/* <hr className="separator"></hr> */}
             <ContactSocialIcons />
             made with <FaHeart color="D5BB69" /> by <a className="devLink" href="https://lexi.scalesdev.com" target="_blank" rel="noopener noreferrer">lexi scales</a><br />
             © {new Date().getFullYear()}
