@@ -3,27 +3,9 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
-import CardGrid from '../CardGrid'
 import './style.css'
 
 function Team() {
-    const teamObject = [
-        {
-            title: "Teammate 1",
-            image: "./images/about.jpg",
-            text: "Umami you probably haven't heard of them health goth, aesthetic vegan beard palo santo bushwick."
-        },
-        {
-            title: "Teammate 2",
-            image: "./images/about.jpg",
-            text: "I'm baby salvia waistcoat fashion axe small batch. Craft beer godard ugh hella slow-carb occupy chillwave coloring book flexitarian 90's farm-to-table photo booth."
-        },
-        {
-            title: "Teammate 3",
-            image: "./images/about.jpg",
-            text: " Cliche occupy humblebrag, swag actually VHS vape normcore bespoke keffiyeh hammock trust fund paleo."
-        }
-    ]
     const founderContent = (
         <Row xs={1} sm={2}>
             <Col className="image-container">
@@ -38,21 +20,9 @@ function Team() {
         </Row>
     )
 
-    const teamContent = (
-        <div>
-            <Row>
-                <h2 className="text-center headerTeamMembers">Our Team Members</h2>
-            </Row>
-            <Row>
-                <CardGrid data={teamObject} />
-            </Row>
-        </div>
-    )
-
     return (
         <Container className="section-container" id="team">
             {founderContent}
-            {teamContent}
         </Container>
     )
 }
