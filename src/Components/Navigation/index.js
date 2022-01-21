@@ -29,7 +29,6 @@ function Navigation() {
                     <Nav.Link href="/#about">About</Nav.Link>
                     <Nav.Link href="/#services">Services</Nav.Link>
                     <Nav.Link href="/#team">Team</Nav.Link>
-                    <Nav.Link href="/portfolio">Portfolio</Nav.Link>
                     <Nav.Link href="/contact">Contact</Nav.Link>
 
                 </Nav>

@@ -21,8 +21,9 @@ function Landing() {
         <div className="pageView">
             <Navigation />
             <Hero />
-            <div className="text-center"><ContactCTA /></div>
             <About />
+            <div className="text-center"><ContactCTA /></div>
+            <div className="text-center">VIDEO HERE</div>
             <Services />
             <div className="text-center"><ContactCTA /></div>
             <Team />
