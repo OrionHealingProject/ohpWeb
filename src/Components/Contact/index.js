@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row"
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 import { Link } from 'react-router-dom'
-import { FaLinkedin, FaInstagramSquare, FaGithubSquare } from "react-icons/fa";
+import { FaInstagramSquare, FaYoutubeSquare } from "react-icons/fa";
 
 import { FormSubmitAPIForm } from '../Form'
 import './style.css'
@@ -24,7 +24,7 @@ function ContactSocialIcons() {
         <>
             {/* TODO: update hrefs with clients urls */}
             <h1 >
-                <a style={{ color: "#D5BB69" }} href="https://www.linkedin.com/in/lexijack/" target="_blank" rel='noreferrer'><FaLinkedin /></a>
+                <a style={{ color: "#D5BB69" }} href="https://www.instagram.com/ryn_iley/" target="_blank" rel='noreferrer'><FaYoutubeSquare /></a>
                 <a style={{ color: "#D5BB69" }} href="https://www.instagram.com/puakehaulani/" target="_blank" rel='noreferrer'><FaInstagramSquare /></a>
             </h1>
         </>

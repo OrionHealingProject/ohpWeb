@@ -9,7 +9,7 @@ function Footer() {
         <div className="footer" fixed="bottom">
             <hr className="separator"></hr>
             <ContactSocialIcons />
-            made with <FaHeart /> by <a className="devLink" href="https://lexi.scalesdev.com" target="_blank" rel="noopener noreferrer">lexi scales</a><br />
+            made with <FaHeart color="D5BB69" /> by <a className="devLink" href="https://lexi.scalesdev.com" target="_blank" rel="noopener noreferrer">lexi scales</a><br />
             © {new Date().getFullYear()}
         </div>
     )
