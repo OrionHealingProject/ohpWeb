@@ -2,7 +2,7 @@ import Navigation from '../../Components/Navigation'
 import Hero from '../../Components/Hero'
 import { ContactCTA } from '../../Components/Contact'
 import About from '../../Components/About'
-import YoutubeEmbed from '../../Components/YouTube'
+import { VideoSection } from '../../Components/Video'
 import Services from '../../Components/Services'
 import Team from '../../Components/Team'
 import Footer from '../../Components/Footer'
@@ -16,7 +16,7 @@ function Landing() {
             <Hero />
             <About />
             <div className="text-center"><ContactCTA /></div>
-            <YoutubeEmbed embedId="uVc3LOjiTr0" />
+            <VideoSection />
             <Services />
             <div className="text-center"><ContactCTA /></div>
             <Team />
