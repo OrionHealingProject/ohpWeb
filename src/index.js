@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './fonts/Lovelo/Lovelo-Line-Light.otf';
+import './fonts/Lovelo/Lovelo-Black.otf';
 import './fonts/SourceCodeVariable/SourceCodeVariable-Roman.otf'
 
 

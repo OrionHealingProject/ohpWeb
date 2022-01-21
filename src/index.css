@@ -13,9 +13,9 @@ code {
 }
 
 @font-face {
-  font-family: "LoveloLineLight";
-  src: local("LoveloLineLight"),
-    url("./fonts/Lovelo/Lovelo-Line-Light.otf") format("truetype");
+  font-family: "Lovelo";
+  src: local("Lovelo"),
+    url("./fonts/Lovelo/Lovelo-Black.otf") format("truetype");
   font-weight: normal;
 }
 @font-face {
