@@ -10,14 +10,6 @@ import Footer from '../../Components/Footer'
 import './style.css'
 
 function Landing() {
-    const bannerObject =
-    {
-        header: "HEADER FOR HOME",
-        text: "Subheader for home page",
-        image: "./images/about.jpg",
-        cta: true
-    }
-
     return (
         <div className="pageView">
             <Navigation />

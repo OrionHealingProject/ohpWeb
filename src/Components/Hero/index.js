@@ -8,7 +8,7 @@ import './style.css'
 function Hero() {
     return (
         <div className="hero" id="home">
-            <Container>
+            {/* <Container>
                 <Row >
                     <div className="logoOverlay">
                         <Image src="./images/logo.png" />
@@ -16,9 +16,9 @@ function Hero() {
                 </Row>
                 <Row>
                     <div className="tagline">This is the Hero Image and Tagline</div>
-                </Row>
-            </Container>
-        </div>
+                </Row> */}
+            {/* </Container> */}
+        </div >
     )
 }
 

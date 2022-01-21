@@ -1,13 +1,15 @@
+/* #1B1B1B #4F7662 #D5BB69 #80978F */
+
 .pageView {
-  background-color: #e9dbd7;
+  background-color: #80978f;
   font-family: "Spartan", san-serif;
-  color: black;
+  color: #1b1b1b;
 }
 
 h1,
 h2,
 h3 {
-  filter: drop-shadow(0px 0px 5px #f6f0e4);
+  filter: drop-shadow(0px 0px 5px #4f7662);
 }
 
 a {
@@ -22,7 +24,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  filter: drop-shadow(5px 5px 15px #b5b5ad);
+  filter: drop-shadow(5px 5px 15px #4f7662);
 }
 
 .section-container {

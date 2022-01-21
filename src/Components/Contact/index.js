@@ -24,8 +24,8 @@ function ContactSocialIcons() {
         <>
             {/* TODO: update hrefs with clients urls */}
             <h1 >
-                <a style={{ color: "#0e404b" }} href="https://www.linkedin.com/in/lexijack/" target="_blank" rel='noreferrer'><FaLinkedin /></a>
-                <a style={{ color: "#0e404b" }} href="https://www.instagram.com/puakehaulani/" target="_blank" rel='noreferrer'><FaInstagramSquare /></a>
+                <a style={{ color: "#D5BB69" }} href="https://www.linkedin.com/in/lexijack/" target="_blank" rel='noreferrer'><FaLinkedin /></a>
+                <a style={{ color: "#D5BB69" }} href="https://www.instagram.com/puakehaulani/" target="_blank" rel='noreferrer'><FaInstagramSquare /></a>
             </h1>
         </>
     )

@@ -1,10 +1,12 @@
+/* #1B1B1B #4F7662 #D5BB69 #80978F */
+
 .navBackgroundTransparent {
   background-color: transparent;
   padding: 8;
 }
 
 .navBackgroundColor {
-  background-color: #d6c6c3;
+  background-color: #4f7662;
   padding: 8;
 }
 
@@ -14,5 +16,5 @@
 
 .show,
 .collapsing {
-  background-color: #d6c6c3;
+  background-color: #4f7662;
 }

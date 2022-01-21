@@ -24,7 +24,7 @@ function Navigation() {
         <Navbar className={` ${transparentBg ? "navBackgroundTransparent" : "navBackgroundColor"}`} variant="light" expand="md" sticky="top">
             <Navbar.Brand href="/">{transparentBg ? <></> : <Image src="../images/logoColor.png" height={50} />}</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+            <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
                 <Nav>
                     <Nav.Link href="/#about">About</Nav.Link>
                     <Nav.Link href="/#services">Services</Nav.Link>
