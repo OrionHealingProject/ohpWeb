@@ -11,7 +11,7 @@ import './style.css'
 
 function ContactCTA() {
     return (
-        <div className="contactCTA section-container">
+        <div className="contactCTA ">
             Contact us for a consultation! <br />
             <Link to="/contact"><Button>Connect</Button></Link>
         </div>
