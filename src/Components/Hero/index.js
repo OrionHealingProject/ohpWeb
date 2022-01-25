@@ -8,7 +8,7 @@ import './style.css'
 function Hero() {
     return (
         <div className="section-content" id="home">
-            <Image src="./images/hero.png" fluid />
+            <Image src="./images/heroBest.png" fluid />
         </div >
     )
 }

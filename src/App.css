@@ -38,4 +38,11 @@ a:hover {
   .section-container {
     padding-bottom: 10px;
   }
+
+  a {
+    transition: unset;
+  }
+  a:hover {
+    transform: unset;
+  }
 }

@@ -20,7 +20,6 @@ function Landing() {
             <Services />
             <div className="text-center"><ContactCTA /></div>
             <Team />
-            <div className="text-center"><ContactCTA /></div>
             <Footer />
         </div>
     )
