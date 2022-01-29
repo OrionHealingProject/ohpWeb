@@ -2,9 +2,11 @@ import React from "react"
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Image from 'react-bootstrap/Image'
 import Button from 'react-bootstrap/Button'
 import { Link } from 'react-router-dom';
 
+import img from '../../assets/images/404.png'
 import './style.css'
 
 function NotFound() {
@@ -12,13 +14,13 @@ function NotFound() {
         <Container fluid className="notFound">
             <Row>
                 <Col className="text-center">
-                    <h1>404 Page Not Found</h1>
+                    <Image src={img} fluid />
                 </Col>
             </Row>
             <Row>
                 <Col className="text-center">
                     <Link to="/">
-                        <Button>return</Button>
+                        <Button variant="warning">return</Button>
                     </Link>
                 </Col>
             </Row >
