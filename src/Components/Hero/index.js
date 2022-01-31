@@ -7,18 +7,9 @@ import './style.css'
 
 function Hero() {
     return (
-        <div className="hero" id="home">
-            <Container>
-                <Row >
-                    <div className="logoOverlay">
-                        <Image src="./images/logo.png" />
-                    </div>
-                </Row>
-                <Row>
-                    <div className="tagline">This is the Hero Image and Tagline</div>
-                </Row>
-            </Container>
-        </div>
+        <div className="section-content" id="home">
+            <Image src="./images/heroBest.png" fluid />
+        </div >
     )
 }
 

@@ -1,9 +1,9 @@
 .notFound {
-  background-color: #e9dbd7;
-  font-family: "Spartan", san-serif;
-  padding-top: 25%;
+  background-color: #4f7662;
+  padding-top: 10%;
   height: 100vh;
   width: 100vw;
+  font-family: "SourceCode", san-serif;
 }
 /* 
 @media screen and (min-width: 320px) and (max-width: 767px) {

@@ -1,11 +1,13 @@
 import React from "react"
+import Image from 'react-bootstrap/Image'
 
+import img from '../../assets/images/comingsoon.png'
 import './style.css'
 
 function ComingSoon() {
     return (
         <div className="comingSoon">
-            <h1>Coming Soon!</h1>
+            <Image src={img} fluid />
         </div>
 
     )

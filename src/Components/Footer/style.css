@@ -4,16 +4,18 @@
   width: 100%;
   text-align: center;
   padding-bottom: 5px;
+  font-family: "Spartan", sans-serif;
 }
 
 .footer a {
-  color: #bcafb4;
+  color: #d5bb69;
   text-decoration: none;
 }
 
 .footer a:hover {
-  color: pink;
+  color: #b2a2b9;
   text-decoration: underline;
+  cursor: url(../../assets/images/egg.png), pointer;
 }
 
 .separator {
